@@ -35,14 +35,23 @@ dependencies:
   # flame_tiled: 1.9.0
   # tiled: 0.10.1
 
-  flame: 1.4.0
-  flame_tiled: 1.8.0
+  flame: 
+    path: ../flame_tiled_testing/packages/flame
+  flame_tiled:
+    path: ../flame_tiled_testing/packages/flame_tiled
   tiled: 0.9.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  toggleable: ^2.1.2
+  pretty_string: ^1.0.1
+dependency_overrides: 
 
+  flame: 
+    path: ../flame_tiled_testing/packages/flame
+  flame_tiled:
+    path: ../flame_tiled_testing/packages/flame_tiled
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -59,7 +68,7 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
+  
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
